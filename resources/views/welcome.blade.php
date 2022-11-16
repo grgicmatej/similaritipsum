@@ -36,7 +36,7 @@
             </div>
 
             <div id="preview" class="preview">
-                <form action="/getResult" id="streaminput" method="post">
+                <form action="/get-result" id="streaminput" method="post">
                     @csrf
                     <p>
                         <label for="words_stream_1"></label>
