@@ -1,0 +1,35 @@
+a{
+    text-decoration: none !important;
+}
+
+.footerbar{
+    padding: 10px 20px 15px 20px;
+    border-top: 1px dotted gray;
+}
+
+.footerbar a{
+    color: gray;
+}
+
+.footerbar a:hover{
+    color: darkgray;
+}
+
+.words_stream{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid lightgrey;
+}
+
+.a_link_tutorial{
+    color: gray;
+}
+
+.a_link_tutorial:hover{
+    color: darkgray;
+}
+
+footer{
+    border: 0 !important;
+    padding:15px;
+}
