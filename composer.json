@@ -29,7 +29,8 @@
             "App\\": "app/"
         },
         "files": [
-            "app/helpers.php"
+            "app/Helpers/helpers.php",
+            "app/Helpers/dataManipulate.php"
         ]
     },
     "autoload-dev": {

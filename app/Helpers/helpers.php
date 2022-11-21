@@ -4,17 +4,6 @@ declare(strict_types=1);
 use App\Enums\ForbiddenLetter;
 
 /**
- * Sanitizing input
- *
- * @param string $request
- * @return array <int, string>
- */
-function sanitize(string $request): array
-{
-    return explode(' ', (string) preg_replace("/\s+/", " ", $request));
-}
-
-/**
  * Take first letter/byte of each word, convert it to ASCII value and sum it to total score
  *
  * @param int $limit

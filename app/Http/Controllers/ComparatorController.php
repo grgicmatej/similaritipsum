@@ -33,16 +33,8 @@ class ComparatorController extends Controller
      */
     public function getResultApi(Request $request): JsonResponse
     {
-        if (!isset($_GET['words_stream_1']) || !isset($_GET['words_stream_2'])) {
-            return response()->json('missing/wrong parameters', 400);
-        }
-
-        if ($request->getMethod() !== 'GET') {
-            return response()->json('wrong method, only GET allowed', 405);
-        }
-
-        if ($request->header('key') === null) {
-            return response()->json('wrong authorization, check how to', 401);
+        if (validate($request) !== 200) {
+            return response()->json(validate($request));
         }
 
         return response()->json($this->compare($request));
