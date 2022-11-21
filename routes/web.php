@@ -18,4 +18,12 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+Route::get('/how', function () {
+    return view('how');
+});
+
+Route::get('/api', function () {
+    return view('api');
+});
+
 Route::post('/get-result', [ComparatorController::class, 'getResult'])->name('getResult');
