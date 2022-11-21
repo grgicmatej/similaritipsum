@@ -30,7 +30,7 @@
             This is quick intro & howto use it.
         </h3>
         <br>
-        <h3>URL to get API endpoint is : <b>/api/getResultApi</b></h3>
+        <h3>URL to get API endpoint is : <b>/api/get-result-api</b></h3>
         <br>
         <h3>There are a few requirements:</h3>
     </div>
