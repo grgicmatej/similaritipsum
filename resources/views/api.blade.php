@@ -16,10 +16,13 @@
 <header class="header">
     <h1 class="page-title"><a href="/" class="page-title__link">Similaritipsum</a></h1>
     <div id="nav-menu" class="nav-menu">
-        <a href="{{ url('how') }}" id="nav-menu-how-to" data-target="help-how-to" class="nav-menu__link nav-menu__help-how-to">How to
+        <a href="{{ url('how') }}" id="nav-menu-how-to" data-target="help-how-to"
+           class="nav-menu__link nav-menu__help-how-to">How to
             use</a>
-        <a href="{{ url('api') }}" id="nav-menu-api" data-target="help-api" class="nav-menu__link nav-menu__help-api">API</a>
-        <a href="https://github.com/grgicmatej" id="nav-menu-api" data-target="help-api" class="nav-menu__link nav-menu__help-api">Grgic Matej</a>
+        <a href="{{ url('api') }}" id="nav-menu-api" data-target="help-api"
+           class="nav-menu__link nav-menu__help-api">API</a>
+        <a href="https://github.com/grgicmatej" id="nav-menu-api" data-target="help-api"
+           class="nav-menu__link nav-menu__help-api">Grgic Matej</a>
     </div>
 </header>
 
@@ -54,8 +57,9 @@
         <div class="container mt-5">
             <div class="row">
                 <div class="col-12 text-center">
-                    <span class="footerbar">© {{ date("Y") }} | Design 100% owned by <a href="https://litipsum.com/"
-                                                                                        target="_blank">litipsum.com</a> | For internal and educational purposes only.</span>
+                    <span class="footerbar">© {{ date("Y") }} | Design 100% owned by
+                        <a href="https://litipsum.com/" target="_blank">litipsum.com</a>
+                        | For internal and educational purposes only.</span>
                 </div>
             </div>
         </div>

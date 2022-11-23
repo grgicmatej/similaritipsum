@@ -32,5 +32,5 @@ function getAsciiValue(int $limit, array $request): int
  */
 function compare(float $streamOneResults, float $streamTwoResults): float
 {
-    return (float) number_format(($streamOneResults / $streamTwoResults), 2, '.') ;
+    return (float) number_format(($streamOneResults / $streamTwoResults), 2) ;
 }
