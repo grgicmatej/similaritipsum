@@ -48,8 +48,8 @@ class ComparatorController extends Controller
      */
     public function compare(Request $request): float
     {
-        $arrayStreamOne = sanitize((string) $request['words_stream_1']);
-        $arrayStreamTwo = sanitize((string) $request['words_stream_2']);
+        $arrayStreamOne = sanitiseRequest((string) $request['words_stream_1']);
+        $arrayStreamTwo = sanitiseRequest((string) $request['words_stream_2']);
 
         $limit = (int) min(count($arrayStreamOne), count($arrayStreamTwo));
 

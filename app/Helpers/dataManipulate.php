@@ -9,7 +9,7 @@ use Illuminate\Http\Request;
  * @param string $request
  * @return array <int, string>
  */
-function sanitize(string $request): array
+function sanitiseRequest(string $request): array
 {
     return explode(' ', (string) preg_replace("/\s+/", " ", $request));
 }
